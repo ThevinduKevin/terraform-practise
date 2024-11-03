@@ -55,3 +55,12 @@ variable "kitty" {
   type = tuple([ string, number, bool ])
   default = [ "cat", 7, true, "dog" ]  //this is wrong. there is no typ for dog
 }
+
+/////////
+variable "filename" {
+  
+}
+
+variable "content" {
+  
+}
